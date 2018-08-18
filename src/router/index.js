@@ -2,27 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-const Home = r => require.ensure([], () => r(require('pages/wxapp/home/Home')), 'home')
-
-const MySetting = r => require.ensure([], () => r(require('pages/wxapp/mine/MySetting')), 'mySetting')
-const OwnSpace = r => require.ensure([], () => r(require('pages/wxapp/mine/children/OwnSpace')), 'ownSpace')
-const MyIndex = r => require.ensure([], () => r(require('pages/wxapp/mine/children/Index')), 'myIndex')
-
-const Discovery = r => require.ensure([], () => r(require('pages/wxapp/discovery/Discovery')), 'discovery')
-const DisIndex = r => require.ensure([], () => r(require('pages/wxapp/discovery/children/Index')), 'disIndex')
-
-const Application = r => require.ensure([], () => r(require('pages/wxapp/application/Application')), 'application')
-
-const Wallet = r => require.ensure([], () => r(require('pages/wxapp/wallet/wallet')), 'wallet')
-
-const EditPassword = r => require.ensure([], () => r(require('pages/wxapp/forget/EditPassword')), 'editPassword')
-
 const router = new Router({
   routes: [
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: () => import('pages/wxapp/home/Home'),
       meta: {
         title: '首页'
       }
@@ -30,7 +15,7 @@ const router = new Router({
     {
       path: '/mySetting',
       name: 'mySetting',
-      component: MySetting,
+      component: () => import('pages/wxapp/mine/MySetting'),
       meta: {
         title: '我的'
       },
@@ -38,7 +23,7 @@ const router = new Router({
         {
           path: 'ownSpace',
           name: 'ownSpace',
-          component: OwnSpace,
+          component: () => import('pages/wxapp/mine/children/OwnSpace'),
           meta: {
             title: '个人中心'
           }
@@ -46,7 +31,7 @@ const router = new Router({
         {
           path: 'myIndex',
           name: 'myIndex',
-          component: MyIndex,
+          component: () => import('pages/wxapp/mine/children/Index'),
           meta: {
             title: '我的默认页面'
           }
@@ -56,7 +41,7 @@ const router = new Router({
     {
       path: '/application',
       name: 'application',
-      component: Application,
+      component: () => import('pages/wxapp/application/Application'),
       meta: {
         title: '应用'
       }
@@ -64,7 +49,7 @@ const router = new Router({
     {
       path: '/discovery',
       name: 'discovery',
-      component: Discovery,
+      component: () => import('pages/wxapp/discovery/Discovery'),
       meta: {
         title: '发现'
       },
@@ -72,7 +57,7 @@ const router = new Router({
         {
           path: 'disIndex',
           name: 'disIndex',
-          component: DisIndex,
+          component: () => import('pages/wxapp/discovery/children/Index'),
           meta: {
             title: '发现默认页'
           }
@@ -82,7 +67,7 @@ const router = new Router({
     {
       path: '/wallet',
       name: 'wallet',
-      component: Wallet,
+      component: () => import('pages/wxapp/wallet/wallet'),
       meta: {
         title: '钱包'
       }
@@ -90,7 +75,7 @@ const router = new Router({
     {
       path: '/editPassword',
       name: 'editPassword',
-      component: EditPassword,
+      component: () => import('pages/wxapp/forget/EditPassword'),
       meta: {
         title: '忘记密码'
       }
