@@ -5,23 +5,23 @@
     <div class="container">
       <group>
         <cell title="朋友圈" link="/discovery/disIndex">
-          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
         </cell>
       </group>
 
       <group>
         <div class="news-wrap">
           <cell title="扫一扫" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="摇一摇" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="看一看" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="搜一搜" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
         </div>
       </group>
@@ -29,7 +29,7 @@
       <group>
         <div class="news-wrap">
           <cell title="附近的人" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
         </div>
       </group>
@@ -37,17 +37,17 @@
       <group>
         <div class="news-wrap">
           <cell title="购物" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="游戏" link="/discovery/disIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
         </div>
       </group>
 
       <group>
         <cell title="小程序" link="/discovery/disIndex">
-          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
         </cell>
       </group>
     </div>

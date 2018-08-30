@@ -7,15 +7,23 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: () => import('pages/wxapp/home/Home'),
+      component: () => import('pages/home/Home'),
       meta: {
         title: '首页'
       }
     },
     {
+      path: '/sell',
+      name: 'sell',
+      component: () => import('pages/sell/ProductList'),
+      meta: {
+        title: '商品列表'
+      }
+    },
+    {
       path: '/mySetting',
       name: 'mySetting',
-      component: () => import('pages/wxapp/mine/MySetting'),
+      component: () => import('pages/mine/MySetting'),
       meta: {
         title: '我的'
       },
@@ -23,7 +31,7 @@ const router = new Router({
         {
           path: 'ownSpace',
           name: 'ownSpace',
-          component: () => import('pages/wxapp/mine/children/OwnSpace'),
+          component: () => import('pages/mine/children/OwnSpace'),
           meta: {
             title: '个人中心'
           }
@@ -31,7 +39,7 @@ const router = new Router({
         {
           path: 'myIndex',
           name: 'myIndex',
-          component: () => import('pages/wxapp/mine/children/Index'),
+          component: () => import('pages/mine/children/Index'),
           meta: {
             title: '我的默认页面'
           }
@@ -41,7 +49,7 @@ const router = new Router({
     {
       path: '/application',
       name: 'application',
-      component: () => import('pages/wxapp/application/Application'),
+      component: () => import('pages/application/Application'),
       meta: {
         title: '应用'
       }
@@ -49,7 +57,7 @@ const router = new Router({
     {
       path: '/discovery',
       name: 'discovery',
-      component: () => import('pages/wxapp/discovery/Discovery'),
+      component: () => import('pages/discovery/Discovery'),
       meta: {
         title: '发现'
       },
@@ -57,7 +65,7 @@ const router = new Router({
         {
           path: 'disIndex',
           name: 'disIndex',
-          component: () => import('pages/wxapp/discovery/children/Index'),
+          component: () => import('pages/discovery/children/Index'),
           meta: {
             title: '发现默认页'
           }
@@ -67,7 +75,7 @@ const router = new Router({
     {
       path: '/wallet',
       name: 'wallet',
-      component: () => import('pages/wxapp/wallet/wallet'),
+      component: () => import('pages/wallet/wallet'),
       meta: {
         title: '钱包'
       }
@@ -75,7 +83,7 @@ const router = new Router({
     {
       path: '/editPassword',
       name: 'editPassword',
-      component: () => import('pages/wxapp/forget/EditPassword'),
+      component: () => import('pages/forget/EditPassword'),
       meta: {
         title: '忘记密码'
       }

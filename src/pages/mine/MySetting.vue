@@ -12,30 +12,30 @@
 
       <group>
         <cell title="钱包" link="/wallet">
-          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
         </cell>
       </group>
 
       <group>
         <div class="news-wrap">
           <cell title="收藏" link="/mySetting/myIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="相册" link="/mySetting/myIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="卡包" link="/mySetting/myIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
           <cell title="表情" link="/mySetting/myIndex">
-            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+            <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
           </cell>
         </div>
       </group>
 
       <group>
         <cell title="设置" link="/mySetting/myIndex">
-          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/wxapp/default-head-img.jpeg">
+          <img slot="icon" width="30" style="display:block;margin-right:5px;" src="~assets/default-head-img.jpeg">
         </cell>
       </group>
 

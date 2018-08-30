@@ -4,7 +4,7 @@
 
     <div class="container">
       <div class="banner">
-        <img src="~assets/wxapp/image/banner.png"/>
+        <img src="~assets/image/banner.png"/>
       </div>
 
       <div class="ac-title">
